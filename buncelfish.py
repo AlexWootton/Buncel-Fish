@@ -56,7 +56,7 @@ def debunce():
                 print("Here are some near matches:")
                 print("\n".join(translation))
             if input("\nDebunce again? [Y/n]: ").lower() == "n":
-                print("\nCome back soon!n\n")
+                print("\nCome back soon!\n")
                 sys.exit()
         except ValueError as err:
             print(err)
