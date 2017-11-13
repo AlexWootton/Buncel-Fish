@@ -12,7 +12,10 @@ class Dictionary(list):
         if not isinstance(file, str):
             raise ValueError("File must be a string")
         super().__init__()
-        self.file = open(file, "r")
+        try:
+            self.file = open(file, "r")
+        except:
+            self.file = open("default_dict.csv", "r")
         if file[-4:] == ".csv":
             reader = csv.DictReader(self.file)
             for line in reader:
