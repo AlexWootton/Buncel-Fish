@@ -2,4 +2,4 @@
 
 ### Numero Uno Universal Translator
 
-It's basically perfect
+It's *basically* perfect
