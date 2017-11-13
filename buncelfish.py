@@ -24,8 +24,7 @@ def print_logo():
 
 
   Numero Uno in unversal translators
-     *Currently only accepting*
-     *single word translations*
+
 ''')
 
 def debunce():
