@@ -29,7 +29,7 @@ def print_logo():
 ''')
 
 def debunce():
-    dict_file = "default_dict.csv"
+    dict_file = "custom_dict.csv"
     dictionary = Dictionary(dict_file)
     languages = dictionary.languages
     word = None
@@ -57,7 +57,7 @@ def debunce():
                 print("Here are some near matches:")
                 print("\n".join(translation))
             if input("\nDebunce again? [Y/n]: ").lower() == "n":
-                print("Come back soon!")
+                print("\nCome back soon!n\n")
                 sys.exit()
         except ValueError as err:
             print(err)
